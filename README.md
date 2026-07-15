@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Abdul-Salam 👋</h1>
 
 <p align="center">
-  <strong>Software Engineer @ 4orge · Building AI agents that solve real problems</strong>
+  <strong>Software Engineer @ 4orge</strong>
 </p>
 
 <p align="center">
