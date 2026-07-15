@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1B4332,100:52796F&height=180&section=header&text=Abdul-Salam%20Adebayo&fontSize=40&fontColor=E9C46A&fontAlignY=40&animation=fadeIn&desc=Software%20Engineer%20%40%204orge%20%C2%B7%20AI%20Systems%20That%20Ship&descAlignY=58&descSize=16&descColor=F1F1E6" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1B4332,100:52796F&height=180&section=header&text=Abdul-Salam%20Adebayo&fontSize=40&fontColor=E9C46A&fontAlignY=40&animation=fadeIn&desc=Full-Stack%20%2B%20Applied%20AI%20%C2%B7%20Systems%20That%20Ship&descAlignY=58&descSize=16&descColor=F1F1E6" width="100%"/>
 
 <code>talent is everywhere, but access makes the difference</code>
 
@@ -8,93 +8,64 @@
 
 <br>
 
-## Now
-
-Software Engineer at **4orge**, working across QA and backend development, including secure vote-handling logic for a voting platform. Previously spent a build cycle taking **FarmBuddy**, a multilingual AI advisory tool for smallholder farmers, from thesis concept to an 89.56/100 usability score across 80 real farmers.
-
-Outside client work, I run the study track at Machine Learning Lagos and organize with GDG On Campus Bowen. I care about the same problem in both spaces: good engineers exist everywhere, they just don't all get the same shot.
+I build full-stack systems where an AI layer earns its place, agents, RAG pipelines, and LLM-backed features that solve a real problem, not just wrap a model in a chat box. Comfortable across Python/Django on the backend and Next.js/React on the frontend, with a data-science background I still lean on when a problem calls for a model instead of a prompt.
 
 <br>
 
-## Experience
+## Selected Work
 
-<table>
-<tr>
-<td width="260"><b>Software Engineer</b><br/>4orge</td>
-<td align="right"><i>Dec 2025 – Present</i></td>
-</tr>
-<tr>
-<td colspan="2">QA testing on "The Gaffer" application, identifying and documenting bugs. Backend development on a secure voting platform, implementing vote-handling logic.</td>
-</tr>
-</table>
+### 🌾 FarmBuddy — Multimodal AI Agricultural Advisory
+Multilingual advisory system for Nigerian smallholder farmers. **Validated with 80 users, scored 89.56/100 (Excellent) on the System Usability Scale.**
 
-<table>
-<tr>
-<td width="260"><b>Software Engineering Intern</b><br/>Merrowgate</td>
-<td align="right"><i>Feb 2026 – Apr 2026</i></td>
-</tr>
-<tr>
-<td colspan="2">Competitor and market research to inform product positioning. Project scoping, roadmapping, and technical specification writing ahead of development.</td>
-</tr>
-</table>
+- **Reasoning layer:** OpenAI for context-aware crop and pest guidance
+- **Voice layer:** YarnGPT for multilingual TTS in Hausa, Igbo, Yoruba, and Nigerian English, so the system is usable by farmers who can't or don't want to read
+- **Delivery:** PWA (installable, low-bandwidth) + Telegram bot for reach in low-data areas
+- **Stack:** Next.js, Django, OpenAI API, YarnGPT
 
-<table>
-<tr>
-<td width="260"><b>Backend Engineering & Data Science Intern</b><br/>Synergy Solutions IMC LTD</td>
-<td align="right"><i>Jul 2024 – Sep 2025</i></td>
-</tr>
-<tr>
-<td colspan="2">Built a Task Management System with a RESTful API, integrating the Gemini API for LLM-powered task recommendations. Developed a logistic regression model to predict employee churn, improving accuracy by 20% through feature engineering and hyperparameter tuning.</td>
-</tr>
-</table>
+### 🧠 CardioXAI — Explainable AI for Heart Disease Screening
+Weighted consensus ensemble on the CDC BRFSS dataset (**253,680 records**), tuned for clinical interpretability rather than raw accuracy.
 
-<table>
-<tr>
-<td width="260"><b>Study Director</b><br/>Machine Learning Lagos</td>
-<td align="right"><i>Ongoing</i></td>
-</tr>
-<tr>
-<td colspan="2">Delivered ML/data literacy sessions to 500+ students.</td>
-</tr>
-</table>
+- **Model:** Logistic Regression + Random Forest + XGBoost, weighted consensus, **0.815 AUC-ROC**
+- **Imbalance handling:** SMOTE to correct for the skewed positive class
+- **Explainability:** SHAP + LIME with a **model-disagreement confidence tier**, flagging predictions where the three models don't agree so a clinician knows when to double-check
+- **UX:** Interactive risk-factor knowledge graph so users can see *why*, not just *what*
+- **Stack:** Python, Scikit-Learn, XGBoost, SHAP, LIME
 
-<table>
-<tr>
-<td width="260"><b>Co-Convener</b><br/>GDG On Campus, Bowen University</td>
-<td align="right"><i>Ongoing</i></td>
-</tr>
-</table>
+### ⚙️ Nexus — Full-Stack AI Task Manager
+Task manager where the scheduler is the real feature: instead of asking users to plan their week, it does the packing for them.
+
+- **Auto-scheduling engine:** packs pending tasks into upcoming weekdays by deadline, priority, and effort estimate
+- **AI recommendations:** Gemini API with a **heuristic fallback** so the app stays usable when the LLM is down or rate-limited
+- **Auth:** JWT with refresh tokens, email OTP password reset flow
+- **Stack:** React, TypeScript, Express, PostgreSQL
 
 <br>
 
-## Education
-
-**Bowen University** — B.Sc. Computer Science, First Class Honours *(Expected Nov 2026)*
-Relevant coursework: Statistical Methods, Discrete Structures, Data Structures and Algorithms, Programming in Low-Level Languages, Foundations of Sequential Programs, Knowledge Acquisition, System Analysis and Design
-
-<br>
-
-## Built
-
-**FarmBuddy** — multimodal AI advisory system for Nigerian smallholder farmers. Next.js + Django, OpenAI for reasoning, YarnGPT for multilingual TTS across Hausa, Igbo, Yoruba, and Nigerian English. Delivered as a PWA and Telegram bot for low-data areas. 89.56/100 SUS across an 80-user study.
-
-**Nexus** — full-stack AI-powered task manager (React, TypeScript, Express) with an auto-scheduling engine that packs pending tasks into upcoming weekdays by deadline, priority, and effort estimate. Gemini API task recommendations with a heuristic fallback, JWT auth with refresh tokens, and email OTP password reset.
-
-**CardioXAI** — explainable AI for coronary heart disease risk screening. Weighted consensus ensemble (logistic regression, random forest, XGBoost) trained on the CDC's BRFSS dataset (253,680 records), SMOTE for class imbalance, 0.815 AUC-ROC. SHAP and LIME explainability with a model-disagreement confidence tier and an interactive risk-factor knowledge graph.
-
-<br>
-
-## Stack
+## Toolbox
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,django,nextjs,react,ts,nodejs,postgres,git,github&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,django,nextjs,react,ts,nodejs,express,postgres,git,github,vercel&theme=dark" />
 </div>
 
-<div align="center">
+<br>
 
-`Scikit-Learn` `XGBoost` `SHAP/LIME` `RAG` `Prompt Engineering` `RESTful APIs` `Postman` `Vercel` `Render`
+<table>
+<tr><td width="180"><b>Languages</b></td><td>Python, SQL, TypeScript, JavaScript</td></tr>
+<tr><td><b>Backend</b></td><td>Django, Node.js, Express, RESTful API design, PostgreSQL, JWT + refresh tokens</td></tr>
+<tr><td><b>Frontend</b></td><td>Next.js, React, TypeScript, PWA delivery</td></tr>
+<tr><td><b>ML / Data</b></td><td>Scikit-Learn, XGBoost, SMOTE, SHAP, LIME, exploratory data analysis, feature engineering, hyperparameter tuning</td></tr>
+<tr><td><b>Applied AI</b></td><td>LLM integration, AI agents, RAG, prompt engineering, multimodal systems (text + voice)</td></tr>
+<tr><td><b>Practices</b></td><td>System architecture, technical spec writing, project scoping and roadmapping, QA testing</td></tr>
+<tr><td><b>Ops & tooling</b></td><td>Git, GitHub, Postman, Vercel, Render</td></tr>
+</table>
 
-</div>
+<br>
+
+## Where I've Worked
+
+**4orge** — Software Engineer *(current)* · **Merrowgate** — SWE Intern · **Synergy Solutions IMC** — Backend Engineering & Data Science Intern · **Machine Learning Lagos** — Study Director · **GDG On Campus, Bowen University** — Co-Convener
+
+Full details on the [Resume](https://drive.google.com/file/d/1CUnKW0UIRyR1edTfP7n_m2b45RhlG6HE/view?usp=sharing).
 
 <br>
 
