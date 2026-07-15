@@ -69,18 +69,6 @@ Full details on the [Resume](https://drive.google.com/file/d/1CUnKW0UIRyR1edTfP7
 
 <br>
 
-## Numbers
-
-<div align="center">
-  <a href="https://github.com/Abdul-Salam15">
-    <img height="165" alt="Abdul-Salam's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Abdul-Salam15&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400&bg_color=0D1F17&title_color=E9C46A&icon_color=52796F&text_color=F1F1E6&ring_color=E9C46A" />
-  </a>
-  <a href="https://github.com/Abdul-Salam15">
-    <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdul-Salam15&layout=compact&hide_border=true&cache_seconds=86400&bg_color=0D1F17&title_color=E9C46A&text_color=F1F1E6&langs_count=8" />
-  </a>
-</div>
-
-<br>
 
 <div align="center">
 
